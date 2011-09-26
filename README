@@ -1,0 +1,5 @@
+The dwm-5.9-fancybar.diff is an update to the fancybar patch on suckless.org
+for version 5.9. The patch was also changed so that the focused window's title 
+will only have its colors inverted when there is more than one window on the 
+current tag. Note that this is not to be confused with the colored clickable
+fancybar patch also on suckless.org.
