@@ -1,14 +1,4 @@
-The dwm-6.0-fancybar.diff is an update to the fancybar patch on suckless.org
-for version 6.0 and 5.9. The patch was also changed so that the focused window's title 
-will only have its colors inverted when there is more than one window on the 
-current tag. Note that this is not to be confused with the colored clickable
-fancybar patch also on suckless.org.
+The dwm-6.0-fancybar.diff is an update to the fancybar patch on suckless.org for version 6.0 and 5.9. The patch was also changed so that the focused window's title will only have its colors inverted when there is more than one window on the current tag. Note that this is not to be confused with the colored clickable fancybar patch also on suckless.org.
 
-The dwm-6.0-systray.diff is a modification to Kcirick's dwm-5.8.2-systray.diff 
-so that it will work with version 6.0 of dwm. The modifications consist mainly
-of changing line numbers. For those unfamiliar with Kcirick's patch, this adds a 
-systray to the right side of the status bar in dwm that dynamically changes size.
-To use the patch you must define
-"static const int systray_spacing" and "Bool systray_enable" variables in config.h
-with systray_spacing being the spacing between icons(usually 1) and systray_enable
-controlling whether the systray is shown(the systray is shown with the value being True).
+The dwm-6.0-systray.diff is a modification to Kcirick's dwm-5.8.2-systray.diff,
+found at github.com/kcirick/dwm, so that it will work with version 6.0 of dwm. The modifications consist mainly of changing line numbers. For those unfamiliar with Kcirick's patch, this adds a systray to the right side of the status bar in dwm that dynamically changes size. To use the patch you must define "static const int systray_spacing" and "Bool systray_enable" variables in config.h with systray_spacing being the spacing between icons(usually 1) and systray_enable controlling whether the systray is shown(the systray is shown with the value being True).
